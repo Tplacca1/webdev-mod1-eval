@@ -108,6 +108,7 @@ hr {
 	font-size: 0.8rem;
 	font-style: italic;
 	line-height: 1;
+	margin-top: 0.5em;
 }
 
 .main-article_content h1 {
@@ -136,6 +137,7 @@ hr {
 	font-size: 0.8rem;
 	font-style: italic;
 	line-height: 1;
+	margin-top: 0.5em;
 }
 
 .main-sidebar li {
@@ -169,24 +171,28 @@ hr {
 		justify-content: space-between;
 		align-items: center;
 	}
-		
-	section.container {
-		 display: flex; 
-		 flex-direction: row;
+
+	#indexSpecialId {
+		display: flex;
+		flex-direction: row;
 	}
-	
-	.main-article {
-		flex: 2;
+
+	#indexSpecialId .main-article {
 		width: 60%;
-		border-radius: 0.6rem;
 		margin: 0px 12px 0px 0px;
 	}
 
-	.main-sidebar {
-		flex: 1;
+	.main-article {
+
+		border-radius: 0.6rem;
+
+	}
+
+	#indexSpecialId .main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0px 0px 0px 12px;
 	}
 
-}
+	}
+	
